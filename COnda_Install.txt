@@ -1,0 +1,29 @@
+conda create -n frogs python=3.7
+
+conda activate frogs
+
+conda install pandas
+
+conda install -c anaconda scikit-learn
+
+conda install -c conda-forge rasterio
+
+conda install -c conda-forge contextily
+
+conda install -c conda-forge shapely
+
+conda install -c anaconda xarray
+
+conda install -c conda-forge fsspec
+
+conda install -c conda-forge stackstac
+
+conda install -c conda-forge pystac
+
+conda install -c conda-forge planetary-computer
+
+conda install nb_conda
+
+conda install ipykernel
+
+pip install zipfile38
