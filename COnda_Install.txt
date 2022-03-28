@@ -2,9 +2,17 @@ conda create -n frogs python=3.7
 
 conda activate frogs
 
-conda install pandas
+conda install -c conda-forge pandas
 
-conda install -c anaconda scikit-learn
+conda install -c conda-forge notebook
+
+conda install -c conda-forge nb_conda
+
+conda install -c conda-forge scikit-learn
+
+conda install -c conda-forge xgboost
+
+conda install -c conda-forge aiohttp
 
 conda install -c conda-forge rasterio
 
@@ -12,7 +20,7 @@ conda install -c conda-forge contextily
 
 conda install -c conda-forge shapely
 
-conda install -c anaconda xarray
+conda install -c conda-forge xarray
 
 conda install -c conda-forge fsspec
 
@@ -22,8 +30,8 @@ conda install -c conda-forge pystac
 
 conda install -c conda-forge planetary-computer
 
-conda install nb_conda
+conda install -c conda-forge ipykernel
 
-conda install ipykernel
+pip install xarray[complete]
 
-pip install zipfile38
+conda install -c conda-forge imbalanced-learn
